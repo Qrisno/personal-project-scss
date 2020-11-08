@@ -1,0 +1,43 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .component2 {
+        height: 592.04px;
+        .cont2 {
+            height: 592.04px;
+            .left-2 {
+                display: none;
+            }
+            .left-1 {
+                display: none;
+            }
+            .texts2 {
+                margin-bottom: 5%;
+                margin-left: 5%;
+                .txt1 {
+                    color: $white;
+                    font-size: 58.81px;
+                    font-family: raleway;
+                    font-weight: 200;
+                    text-align: center;
+                    line-height: 74.4px;
+                }
+                .txt2 {
+                    color: $white;
+                    font-size: 71.77px;
+                    font-family: montserrat;
+                    text-align: center;
+                    font-weight: 700;
+                    line-height: 88.8px;
+                    letter-spacing: -2px;
+                }
+                .txt3 {
+                    color: $white;
+                    font-size: 18.94px;
+                    font-family: raleway;
+                    text-align: center;
+                    font-weight: 300;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

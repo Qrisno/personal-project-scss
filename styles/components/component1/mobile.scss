@@ -1,0 +1,53 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+    .component1 {
+        width: 100%;
+        height: 66.92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cont1 {
+            width: 100%;
+            height: 66.92px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .cont1-1 {
+                width: 100%;
+                height: 66.92px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .parry {
+                    height: 38.49px;
+                }
+                .bar {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    display: block;
+                    margin-left: 45%;
+                    height: 31px;
+                    width: 15%;
+                    .rects {
+                        display: block;
+                        position: absolute;
+                        top: 15%;
+                        left: 21%;
+                        .rect {
+                            color: $white;
+                            display: block;
+                        }
+                    }
+                }
+                .links {
+                    display: none;
+                    a {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
