@@ -1,7 +1,12 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
     .component2 {
         height: 592.04px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .cont2 {
+            display: flex;
+            justify-content: center;
             height: 592.04px;
             .left-2 {
                 display: none;
@@ -11,7 +16,6 @@
             }
             .texts2 {
                 margin-bottom: 5%;
-                margin-left: 5%;
                 .txt1 {
                     color: $white;
                     font-size: 58.81px;
@@ -37,6 +41,10 @@
                     font-weight: 300;
                     line-height: 24px;
                 }
+            }
+            .btn-wrapper {
+                width: 56px;
+                height: 39px;
             }
         }
     }

@@ -1,0 +1,77 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .component3 {
+        position: relative;
+        width: 100%;
+        height: 1129px;
+        .part2 {
+            display: flex !important;
+            .title3 {
+                margin-top: 0;
+                margin-bottom: 55px;
+                .txt3-1 {
+                    display: flex;
+                    flex-direction: column;
+                    padding-bottom: 10px;
+                }
+                .title3-1 {
+                    padding-bottom: 10px;
+                    font-size: 28.88px;
+                    line-height: 32.43px;
+                }
+            }
+            .last {
+                margin-bottom: 2%;
+            }
+            .txt3-1-2 {
+                padding-top: 12px;
+                box-sizing: border-box;
+                width: 96.94%;
+                height: 39.3162%;
+                padding-left: 1.2%;
+                .txt3-1 {
+                    font-size: 13px;
+                    line-height: 23px;
+                    font-family: Open Sans;
+                    color: $gray3;
+                }
+                .ttl3-1 {
+                    font-family: Raleway;
+                    font-size: 25px;
+                    letter-spacing: -0.6px;
+                    font-weight: 600;
+                    color: $black;
+                    margin-bottom: 5%;
+                    box-sizing: border-box;
+                    padding-top: 3%;
+                }
+                .three-1 {
+                    display: flex;
+                    height: 50.33px;
+                    margin-bottom: 15px;
+                    .img3-2 {
+                        padding-bottom: 15px;
+                        padding-right: 3%;
+                    }
+                }
+            }
+            .btn-3-1 {
+                background-color: $cyan;
+                width: 138px;
+                height: 42px;
+                border: transparent;
+                margin-top: 23px;
+                span {
+                    color: $white;
+                    font-family: Raleway;
+                    font-size: 13px;
+                    font-weight: 700;
+                    letter-spacing: 0.6px;
+                    line-height: 34px;
+                }
+            }
+        }
+        .part1 {
+            display: none;
+        }
+    }
+}

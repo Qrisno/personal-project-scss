@@ -1,0 +1,150 @@
+.component3 {
+    position: relative;
+    width: 100%;
+    height: 811.97px;
+    .part2 {
+        display: none !important;
+        position: relative;
+        width: 100%;
+        height: 1129px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .img3-1 {
+            width: 93.4895%;
+            height: 37.28%;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+    .part1 {
+        position: relative;
+        width: 100%;
+        height: 811.97px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title3 {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+        .icons3 {
+            display: flex;
+            align-items: center;
+            .img3 {
+                padding-left: 3px;
+                padding-right: 3px;
+            }
+            .rect3 {
+                width: 37px;
+                height: 1.1px;
+                background-color: $lghtgray;
+            }
+        }
+        .title3-1 {
+            color: $gray;
+            font-family: Raleway;
+            font-weight: 600;
+            font-size: 31px;
+            padding-bottom: 10px;
+            .colored3 {
+                color: $cyan;
+            }
+        }
+    }
+    .content3 {
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        .comp {
+            align-self: center;
+            position: relative;
+            width: 25.5625%;
+            margin-right: 120px;
+            .pc {
+                width: 105%;
+            }
+            .screen {
+                position: absolute;
+                width: 96.77%;
+                height: 65.43%;
+                left: 4.6%;
+                top: 5%;
+            }
+        }
+        .texts3 {
+            display: flex;
+            flex-direction: column;
+            .ttext {
+                display: flex;
+                flex-direction: column;
+                .ttl3 {
+                    font-family: Raleway;
+                    font-weight: 600;
+                    font-size: 31px;
+                    color: $gray;
+                    line-height: 19px;
+                    margin-bottom: 25px;
+                    margin-top: 5px;
+                }
+                .txt3-1 {
+                    color: $gray1;
+                    font-family: Open Sans;
+                    font-size: 14px;
+                    line-height: 27px;
+                }
+                .icon3 {
+                    display: grid;
+                    grid-template-columns: repeat(2, 275.5px);
+                    grid-template-rows: repeat(2, 89.71px);
+                    grid-gap: 30px;
+                    .three {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        width: 275.5px;
+                        height: 89.71px;
+                        .ic {
+                            position: relative;
+                            background-color: $gray2;
+                            border-radius: 50%;
+                            width: 63px;
+                            height: 63px;
+                            margin-right: 25px;
+                            .ic-img {
+                                position: absolute;
+                                top: 30%;
+                                left: 30%;
+                            }
+                            .lefts {
+                                left: 37%;
+                            }
+                        }
+                        .inner {
+                            box-sizing: border-box;
+                            padding-top: 35px;
+                            .in1 {
+                                font-family: raleway;
+                                font-size: 18px;
+                                line-height: 19px;
+                                font-weight: 700;
+                            }
+                            .in2 {
+                                color: $gray1;
+                                font-family: Open Sans;
+                                font-size: 13px;
+                                line-height: 22px;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
