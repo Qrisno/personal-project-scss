@@ -1,0 +1,50 @@
+.component1 {
+    width: 100%;
+    min-width: 1545;
+    height: 100.96px;
+    background-color: $bg-col;
+    .cont1 {
+        width: 100%;
+        height: 100.96px;
+        background-color: rgba($color: #000000, $alpha: 0.65);
+        .cont1-1 {
+            width: 100%;
+            height: 100.96px;
+            background-color: rgba($color: #000000, $alpha: 0.65);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .links {
+                margin-left: 17%;
+                width: 38.54%;
+                height: 19px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                a {
+                    color: $white;
+                    font-family: $openSas;
+                    font-size: $px14;
+                }
+            }
+            .bar {
+                display: none;
+                width: 7.29%;
+                height: 39px;
+                background-color: $cyan;
+                border: 1px solid $white;
+                .rects {
+                    display: none;
+                    width: 53%;
+                    .rect {
+                        display: none;
+                        width: 100%;
+                        height: 2px;
+                        background-color: $white;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

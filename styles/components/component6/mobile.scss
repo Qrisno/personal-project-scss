@@ -1,0 +1,120 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+    .component6 {
+        width: 100%;
+        height: 933px;
+        position: relative;
+        .title6 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            margin-top: 32px;
+            .title6-1 {
+                color: $gray5;
+                font-family: Raleway;
+                font-weight: 600;
+                line-height: 29.98px;
+                font-size: 27px;
+                padding-bottom: 10px;
+            }
+            .icons6 {
+                display: flex;
+                align-items: center;
+                .img6 {
+                    padding-left: 8%;
+                    padding-right: 8%;
+                }
+                .rect6 {
+                    width: 35.03px;
+                    height: 1.1px;
+                    background-color: $lghtgray;
+                }
+            }
+        }
+        .contact {
+            display: grid;
+            width: 100%;
+            margin-left: 0%;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin-bottom: 10px;
+            .cont1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                img {
+                    margin-bottom: 20px;
+                }
+                .txt6 {
+                    font-size: 15px;
+                    font-family: raleway;
+                    line-height: 24px;
+                    text-align: center;
+                    font-weight: 500;
+                }
+            }
+        }
+        .form6 {
+            position: static;
+            margin-left: 7%;
+            input {
+                border: 1px solid $lghtgray;
+            }
+            .ne {
+                width: 100%;
+            }
+            .name {
+                width: 91.5%;
+                height: 44px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            .mail {
+                width: 91.5%;
+                height: 44px;
+                margin-right: 0px;
+                margin-bottom: 10px;
+            }
+            .subject {
+                width: 91.5%;
+                height: 46px;
+                margin-bottom: 10px;
+            }
+            .txtarea {
+                border: 1px solid $lghtgray;
+                height: 171px;
+                width: 91.5%;
+                margin-bottom: 10px;
+            }
+            .txtarea::placeholder {
+                color: #7C7C7C;
+                font-size: 14px;
+                font-family: raleway;
+                line-height: 34px;
+                padding-left: 10px
+            }
+            input::placeholder {
+                color: #7C7C7C;
+                font-size: 14px;
+                font-family: raleway;
+                line-height: 34px;
+                padding-left: 10px
+            }
+            .btn6 {
+                background-color: $cyan;
+                border: transparent;
+                width: 160px;
+                height: 42px;
+                .mssg6 {
+                    color: $white;
+                    font-family: raleway;
+                    font-size: 13px;
+                    line-height: 34px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

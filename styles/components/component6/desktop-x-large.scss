@@ -1,0 +1,114 @@
+.component6 {
+    height: 796px;
+    width: 100%;
+    position: relative;
+    .title6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 85px;
+        margin-top: 100px;
+        .title6-1 {
+            color: $gray5;
+            font-family: Raleway;
+            font-weight: 600;
+            line-height: 34px;
+            font-size: 31px;
+            padding-bottom: 10px;
+        }
+        .icons6 {
+            display: flex;
+            align-items: center;
+            .img6 {
+                padding-left: 8%;
+                padding-right: 8%;
+                width: 15px;
+                height: 15px;
+            }
+            .rect6 {
+                width: 37px;
+                height: 1.1px;
+                background-color: $lghtgray;
+            }
+        }
+    }
+    .contact {
+        margin-left: 30%;
+        display: flex;
+        width: 38.95%;
+        justify-content: space-between;
+        align-items: center;
+        .cont1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                margin-bottom: 20px;
+            }
+            .txt6 {
+                font-size: 15px;
+                font-family: raleway;
+                line-height: 24px;
+                text-align: center;
+                font-weight: 500;
+            }
+        }
+    }
+    .form6 {
+        position: relative;
+        top: 60px;
+        margin-left: 25%;
+        input {
+            border: 1px solid $lghtgray;
+        }
+        .name {
+            width: 32%;
+            height: 44px;
+            margin-right: 10px;
+        }
+        .mail {
+            @extend .name;
+            margin-right: 0px;
+            margin-bottom: 10px;
+        }
+        .subject {
+            width: 65.5%;
+            height: 46px;
+            margin-bottom: 10px;
+        }
+        .txtarea {
+            border: 1px solid $lghtgray;
+            height: 171px;
+            width: 65.5%;
+            margin-bottom: 10px;
+        }
+        .txtarea::placeholder {
+            color: #7C7C7C;
+            font-size: 14px;
+            font-family: raleway;
+            line-height: 34px;
+            padding-left: 10px
+        }
+        input::placeholder {
+            color: #7C7C7C;
+            font-size: 14px;
+            font-family: raleway;
+            line-height: 34px;
+            padding-left: 10px
+        }
+        .btn6 {
+            background-color: $cyan;
+            border: transparent;
+            width: 160px;
+            height: 42px;
+            .mssg6 {
+                color: $white;
+                font-family: raleway;
+                font-size: 13px;
+                line-height: 34px;
+                font-weight: 700;
+            }
+        }
+    }
+}

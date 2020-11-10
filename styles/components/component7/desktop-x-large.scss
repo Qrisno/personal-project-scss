@@ -1,0 +1,36 @@
+.component7 {
+    height: 298px;
+    background-color: $shavi;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    .icons7 {
+        width: 283px;
+        display: flex;
+        justify-content: space-between;
+        .square7 {
+            width: 40px;
+            height: 40px;
+            background-color: $moshavo;
+            border-radius: 3px;
+            position: relative;
+            img {
+                position: absolute;
+                top: 14px;
+                left: 12px;
+            }
+        }
+        .square7:hover {
+            background-color: $fb;
+        }
+    }
+    .foot {
+        color: $white;
+        font-size: 11px;
+        font-family: raleway;
+        line-height: 21.36px;
+        letter-spacing: 0.7px;
+    }
+}

@@ -19,7 +19,7 @@
                 .txt1 {
                     color: $white;
                     font-size: 25px;
-                    font-family: raleway;
+                    font-family: $rlw;
                     font-weight: 200;
                     text-align: center;
                     line-height: 30px;
@@ -27,7 +27,7 @@
                 .txt2 {
                     color: $white;
                     font-size: 30px;
-                    font-family: montserrat;
+                    font-family: $mnt;
                     text-align: center;
                     font-weight: 700;
                     line-height: 36px;
@@ -36,7 +36,7 @@
                 .txt3 {
                     color: $white;
                     font-size: 9px;
-                    font-family: raleway;
+                    font-family: $rlw;
                     text-align: center;
                     font-weight: 300;
                     line-height: 10.8px;
@@ -60,7 +60,7 @@
                         background-color: transparent;
                         .read-2 {
                             font-size: 7px;
-                            font-family: raleway;
+                            font-family: $rlw;
                             font-weight: 700;
                             color: $white;
                         }

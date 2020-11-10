@@ -1,3 +1,8 @@
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -483,6 +488,13 @@ table {
     height: 39px;
   }
 }
+.fcol, .component3 .part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .component3 {
   position: relative;
   width: 100%;
@@ -494,9 +506,6 @@ table {
   width: 100%;
   height: 1129px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .component3 .part2 .img3-1 {
   width: 93.4895%;
@@ -898,7 +907,7 @@ table {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .component4 {
-    height: 1107.82px;
+    height: 1100.82px;
     width: 100%;
     display: flex;
   }
@@ -1734,9 +1743,12 @@ table {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .component5 {
+    height: 812px;
+  }
   .component5 .title5 {
-    margin-bottom: 60px;
-    margin-top: 78px;
+    margin-bottom: 40px;
+    margin-top: 35px;
   }
   .component5 .title5 .title5-1-2 {
     color: #323232;
@@ -1749,11 +1761,17 @@ table {
   .component5 .grid-container {
     width: 93.4895%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.94fr;
     height: 500px;
-    padding-left: 18px;
-    grid-gap: 10px;
+    padding-left: 20px;
+    grid-gap: 8px;
     grid-template-areas: "one" "f " "t" "p ";
+  }
+  .component5 .grid-container .two,
+.component5 .grid-container .three,
+.component5 .grid-container .four,
+.component5 .grid-container .s {
+    display: none;
   }
   .component5 .grid-container .one, .component5 .grid-container .three, .component5 .grid-container .f, .component5 .grid-container .t, .component5 .grid-container .p, .component5 .grid-container .s {
     height: 163px;
@@ -1784,12 +1802,12 @@ table {
     height: 26.42px;
     border-radius: 50%;
     position: relative;
-    margin-right: 1%;
+    margin-left: 1%;
   }
   .component5 .grid-container .one .div1 .circle5-2 .cr5-2, .component5 .grid-container .three .div1 .circle5-2 .cr5-2, .component5 .grid-container .f .div1 .circle5-2 .cr5-2, .component5 .grid-container .t .div1 .circle5-2 .cr5-2, .component5 .grid-container .p .div1 .circle5-2 .cr5-2, .component5 .grid-container .s .div1 .circle5-2 .cr5-2 {
     position: absolute;
-    top: 13px;
-    left: 20%;
+    top: 8px;
+    left: 32%;
   }
   .component5 .grid-container .one .div1 .circle5-1-2, .component5 .grid-container .three .div1 .circle5-1-2, .component5 .grid-container .f .div1 .circle5-1-2, .component5 .grid-container .t .div1 .circle5-1-2, .component5 .grid-container .p .div1 .circle5-1-2, .component5 .grid-container .s .div1 .circle5-1-2 {
     box-sizing: border-box;
@@ -1797,13 +1815,13 @@ table {
     height: 26.42px;
     border-radius: 50%;
     position: relative;
-    margin-left: 1%;
+    margin-right: 1%;
     background-color: transparent;
     border: 2px solid #3AB6B2;
   }
   .component5 .grid-container .one .div1 .circle5-1-2 .cr5-2, .component5 .grid-container .three .div1 .circle5-1-2 .cr5-2, .component5 .grid-container .f .div1 .circle5-1-2 .cr5-2, .component5 .grid-container .t .div1 .circle5-1-2 .cr5-2, .component5 .grid-container .p .div1 .circle5-1-2 .cr5-2, .component5 .grid-container .s .div1 .circle5-1-2 .cr5-2 {
     position: absolute;
-    left: 25%;
+    left: 26%;
     top: 5px;
   }
   .component5 .grid-container .one .div2, .component5 .grid-container .three .div2, .component5 .grid-container .f .div2, .component5 .grid-container .t .div2, .component5 .grid-container .p .div2, .component5 .grid-container .s .div2 {
@@ -2058,6 +2076,437 @@ table {
     color: #3AB6B2;
     font-weight: 600;
     text-align: center;
+  }
+}
+.component6 {
+  height: 796px;
+  width: 100%;
+  position: relative;
+}
+.component6 .title6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 85px;
+  margin-top: 100px;
+}
+.component6 .title6 .title6-1 {
+  color: #333333;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 34px;
+  font-size: 31px;
+  padding-bottom: 10px;
+}
+.component6 .title6 .icons6 {
+  display: flex;
+  align-items: center;
+}
+.component6 .title6 .icons6 .img6 {
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 15px;
+  height: 15px;
+}
+.component6 .title6 .icons6 .rect6 {
+  width: 37px;
+  height: 1.1px;
+  background-color: #D3D3D3;
+}
+.component6 .contact {
+  margin-left: 30%;
+  display: flex;
+  width: 38.95%;
+  justify-content: space-between;
+  align-items: center;
+}
+.component6 .contact .cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.component6 .contact .cont1 img {
+  margin-bottom: 20px;
+}
+.component6 .contact .cont1 .txt6 {
+  font-size: 15px;
+  font-family: raleway;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+.component6 .form6 {
+  position: relative;
+  top: 60px;
+  margin-left: 25%;
+}
+.component6 .form6 input {
+  border: 1px solid #D3D3D3;
+}
+.component6 .form6 .name, .component6 .form6 .mail {
+  width: 32%;
+  height: 44px;
+  margin-right: 10px;
+}
+.component6 .form6 .mail {
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+.component6 .form6 .subject {
+  width: 65.5%;
+  height: 46px;
+  margin-bottom: 10px;
+}
+.component6 .form6 .txtarea {
+  border: 1px solid #D3D3D3;
+  height: 171px;
+  width: 65.5%;
+  margin-bottom: 10px;
+}
+.component6 .form6 .txtarea::placeholder {
+  color: #7C7C7C;
+  font-size: 14px;
+  font-family: raleway;
+  line-height: 34px;
+  padding-left: 10px;
+}
+.component6 .form6 input::placeholder {
+  color: #7C7C7C;
+  font-size: 14px;
+  font-family: raleway;
+  line-height: 34px;
+  padding-left: 10px;
+}
+.component6 .form6 .btn6 {
+  background-color: #3AB6B2;
+  border: transparent;
+  width: 160px;
+  height: 42px;
+}
+.component6 .form6 .btn6 .mssg6 {
+  color: #FFFFFF;
+  font-family: raleway;
+  font-size: 13px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component6 {
+    height: 700.57px;
+    width: 100%;
+    position: relative;
+  }
+  .component6 .title6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 65px;
+    margin-top: 70px;
+  }
+  .component6 .title6 .title6-1 {
+    color: #333333;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 32.38px;
+    font-size: 29px;
+    padding-bottom: 10px;
+  }
+  .component6 .title6 .icons6 {
+    display: flex;
+    align-items: center;
+  }
+  .component6 .title6 .icons6 .img6 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .component6 .title6 .icons6 .rect6 {
+    width: 35.03px;
+    height: 1.1px;
+    background-color: #D3D3D3;
+  }
+  .component6 .contact {
+    display: grid;
+    width: 100%;
+    margin-left: 0%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 90px;
+    margin-bottom: 20px;
+  }
+  .component6 .contact .cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .component6 .contact .cont1 img {
+    margin-bottom: 20px;
+  }
+  .component6 .contact .cont1 .txt6 {
+    font-size: 15px;
+    font-family: raleway;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .component6 .form6 {
+    position: static;
+    margin-left: 3%;
+  }
+  .component6 .form6 input {
+    border: 1px solid #D3D3D3;
+  }
+  .component6 .form6 .name, .component6 .form6 .mail {
+    width: 46.5%;
+    height: 44px;
+    margin-right: 10px;
+  }
+  .component6 .form6 .mail {
+    width: 48%;
+    height: 44px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .component6 .form6 .subject {
+    width: 97%;
+    height: 46px;
+    margin-bottom: 10px;
+  }
+  .component6 .form6 .txtarea {
+    border: 1px solid #D3D3D3;
+    height: 171px;
+    width: 97%;
+    margin-bottom: 10px;
+  }
+  .component6 .form6 .txtarea::placeholder {
+    color: #7C7C7C;
+    font-size: 14px;
+    font-family: raleway;
+    line-height: 34px;
+    padding-left: 10px;
+  }
+  .component6 .form6 input::placeholder {
+    color: #7C7C7C;
+    font-size: 14px;
+    font-family: raleway;
+    line-height: 34px;
+    padding-left: 10px;
+  }
+  .component6 .form6 .btn6 {
+    background-color: #3AB6B2;
+    border: transparent;
+    width: 160px;
+    height: 42px;
+  }
+  .component6 .form6 .btn6 .mssg6 {
+    color: #FFFFFF;
+    font-family: raleway;
+    font-size: 13px;
+    line-height: 34px;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component6 {
+    width: 100%;
+    height: 933px;
+    position: relative;
+  }
+  .component6 .title6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 32px;
+  }
+  .component6 .title6 .title6-1 {
+    color: #333333;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 29.98px;
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+  .component6 .title6 .icons6 {
+    display: flex;
+    align-items: center;
+  }
+  .component6 .title6 .icons6 .img6 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .component6 .title6 .icons6 .rect6 {
+    width: 35.03px;
+    height: 1.1px;
+    background-color: #D3D3D3;
+  }
+  .component6 .contact {
+    display: grid;
+    width: 100%;
+    margin-left: 0%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 10px;
+  }
+  .component6 .contact .cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .component6 .contact .cont1 img {
+    margin-bottom: 20px;
+  }
+  .component6 .contact .cont1 .txt6 {
+    font-size: 15px;
+    font-family: raleway;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .component6 .form6 {
+    position: static;
+    margin-left: 7%;
+  }
+  .component6 .form6 input {
+    border: 1px solid #D3D3D3;
+  }
+  .component6 .form6 .ne {
+    width: 100%;
+  }
+  .component6 .form6 .name, .component6 .form6 .mail {
+    width: 91.5%;
+    height: 44px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .component6 .form6 .mail {
+    width: 91.5%;
+    height: 44px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .component6 .form6 .subject {
+    width: 91.5%;
+    height: 46px;
+    margin-bottom: 10px;
+  }
+  .component6 .form6 .txtarea {
+    border: 1px solid #D3D3D3;
+    height: 171px;
+    width: 91.5%;
+    margin-bottom: 10px;
+  }
+  .component6 .form6 .txtarea::placeholder {
+    color: #7C7C7C;
+    font-size: 14px;
+    font-family: raleway;
+    line-height: 34px;
+    padding-left: 10px;
+  }
+  .component6 .form6 input::placeholder {
+    color: #7C7C7C;
+    font-size: 14px;
+    font-family: raleway;
+    line-height: 34px;
+    padding-left: 10px;
+  }
+  .component6 .form6 .btn6 {
+    background-color: #3AB6B2;
+    border: transparent;
+    width: 160px;
+    height: 42px;
+  }
+  .component6 .form6 .btn6 .mssg6 {
+    color: #FFFFFF;
+    font-family: raleway;
+    font-size: 13px;
+    line-height: 34px;
+    font-weight: 700;
+  }
+}
+.component7 {
+  height: 298px;
+  background-color: #111111;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.component7 .icons7 {
+  width: 283px;
+  display: flex;
+  justify-content: space-between;
+}
+.component7 .icons7 .square7 {
+  width: 40px;
+  height: 40px;
+  background-color: #252525;
+  border-radius: 3px;
+  position: relative;
+}
+.component7 .icons7 .square7 img {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+}
+.component7 .icons7 .square7:hover {
+  background-color: #46629E;
+}
+.component7 .foot {
+  color: #FFFFFF;
+  font-size: 11px;
+  font-family: raleway;
+  line-height: 21.36px;
+  letter-spacing: 0.7px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component7 {
+    height: 310px;
+    background-color: #111111;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .component7 .icons7 {
+    width: 186px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 5px;
+  }
+  .component7 .icons7 .square7 {
+    width: 40px;
+    height: 40px;
+    background-color: #252525;
+    border-radius: 3px;
+    position: relative;
+  }
+  .component7 .icons7 .square7 img {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+  }
+  .component7 .icons7 .margin7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .component7 .icons7 .square7:hover {
+    background-color: #46629E;
+  }
+  .component7 .foot {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-family: raleway;
+    line-height: 21.36px;
+    letter-spacing: 0.7px;
   }
 }
 
