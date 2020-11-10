@@ -1,0 +1,77 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+    .component4 {
+        height: 1107.82px;
+        width: 100%;
+        display: flex;
+        .container4 {
+            width: 87.5%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-row-gap: 43px;
+            justify-content: center;
+            align-content: center;
+            padding-bottom: 20px;
+        }
+        .txts4-1 {
+            .title4-1 {
+                color: $cyan;
+                font-size: 18.96px;
+                font-family: raleway;
+                line-height: 37.97px;
+                font-weight: 700;
+                text-align: center;
+            }
+            .text4-1 {
+                font-size: 12.98px;
+                font-family: Open sans;
+                text-align: center;
+                color: $white;
+                line-height: 20.88px;
+            }
+        }
+        .icon4 {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            .hover {
+                display: none;
+                width: 118.02px;
+            }
+            .polygon {
+                position: relative;
+                margin-bottom: 20px;
+                width: 118.02px;
+            }
+            .stat {
+                position: absolute;
+                top: 35%;
+            }
+        }
+        .icon4:hover {
+            .hover {
+                display: block;
+                position: relative;
+                margin-bottom: 20px;
+            }
+            .polygon {
+                position: absolute;
+                top: 0px;
+            }
+        }
+        .title4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            .title4-1-2 {
+                color: $white;
+                font-family: Raleway;
+                font-weight: 600;
+                line-height: 27px;
+                font-size: 30.2px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

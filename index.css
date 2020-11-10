@@ -133,15 +133,18 @@ table {
   border-spacing: 0;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .links a {
     margin-right: 3%;
   }
 }
 .component1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   min-width: 1545;
   height: 100.96px;
@@ -196,23 +199,14 @@ table {
   .component1 {
     width: 100%;
     height: 66.92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .component1 .cont1 {
     width: 100%;
     height: 66.92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .component1 .cont1 .cont1-1 {
     width: 100%;
     height: 66.92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .component1 .cont1 .cont1-1 .parry {
     height: 38.49px;
@@ -249,23 +243,14 @@ table {
   .component1 {
     width: 100%;
     height: 108.92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .component1 .cont1 {
     width: 100%;
     height: 108.92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .component1 .cont1 .cont1-1 {
     width: 100%;
     height: 108.92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .component1 .cont1 .cont1-1 .bar {
     position: relative;
@@ -746,10 +731,13 @@ table {
   .component3 {
     position: relative;
     width: 100%;
-    height: 1129px;
+    height: 1135px;
   }
   .component3 .part2 {
     display: flex !important;
+  }
+  .component3 .part2 .disappear1-2 {
+    display: none;
   }
   .component3 .part2 .title3 {
     margin-top: 0;
@@ -817,6 +805,225 @@ table {
   }
   .component3 .part1 {
     display: none;
+  }
+}
+.component4 {
+  position: relative;
+  height: 783px;
+  width: 100%;
+  background-image: url("images/component4/galaxy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.component4 .title4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 125px;
+}
+.component4 .title4 .icons4 {
+  display: flex;
+  align-items: center;
+}
+.component4 .title4 .icons4 .img4 {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.component4 .title4 .icons4 .rect4 {
+  width: 37px;
+  height: 1.1px;
+  background-color: #D3D3D3;
+}
+.component4 .title4 .title4-1-2 {
+  color: #FFFFFF;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 34px;
+  font-size: 31px;
+  padding-bottom: 10px;
+}
+.component4 .container4 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+.component4 .icon4 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.component4 .icon4 .hover {
+  display: none;
+  width: 30%;
+}
+.component4 .icon4 .polygon {
+  position: relative;
+  margin-bottom: 40px;
+  width: 30%;
+}
+.component4 .icon4 .stat {
+  position: absolute;
+  top: 37%;
+}
+.component4 .txts4-1 .title4-1 {
+  color: #3AB6B2;
+  font-size: 20px;
+  font-family: raleway;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.component4 .txts4-1 .text4-1 {
+  font-size: 14px;
+  font-family: Open sans;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 22px;
+}
+.component4 .icon4:hover .hover {
+  display: block;
+  position: relative;
+  margin-bottom: 40px;
+}
+.component4 .icon4:hover .polygon {
+  position: absolute;
+  top: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component4 {
+    height: 1107.82px;
+    width: 100%;
+    display: flex;
+  }
+  .component4 .container4 {
+    width: 87.5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 43px;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+  .component4 .txts4-1 .title4-1 {
+    color: #3AB6B2;
+    font-size: 18.96px;
+    font-family: raleway;
+    line-height: 37.97px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .component4 .txts4-1 .text4-1 {
+    font-size: 12.98px;
+    font-family: Open sans;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 20.88px;
+  }
+  .component4 .icon4 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .component4 .icon4 .hover {
+    display: none;
+    width: 118.02px;
+  }
+  .component4 .icon4 .polygon {
+    position: relative;
+    margin-bottom: 20px;
+    width: 118.02px;
+  }
+  .component4 .icon4 .stat {
+    position: absolute;
+    top: 35%;
+  }
+  .component4 .icon4:hover .hover {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .component4 .icon4:hover .polygon {
+    position: absolute;
+    top: 0px;
+  }
+  .component4 .title4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .component4 .title4 .title4-1-2 {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 30.2px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component4 {
+    height: 1287px;
+    width: 100%;
+    display: flex;
+  }
+  .component4 .container4 {
+    width: 59.41%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+    justify-content: center;
+    align-content: center;
+  }
+  .component4 .icon4 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .component4 .icon4 .hover {
+    display: none;
+    width: 124.52px;
+  }
+  .component4 .icon4 .polygon {
+    position: relative;
+    margin-bottom: 20px;
+    width: 124.52px;
+  }
+  .component4 .icon4 .stat {
+    position: absolute;
+    top: 35%;
+  }
+  .component4 .icon4:hover .hover {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .component4 .icon4:hover .polygon {
+    position: absolute;
+    top: 0px;
+  }
+  .component4 .title4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .component4 .title4 .title4-1-2 {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 32.36px;
+    font-size: 28.99px;
+    padding-bottom: 10px;
   }
 }
 

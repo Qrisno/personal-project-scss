@@ -1,0 +1,59 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .component4 {
+        height: 1287px;
+        width: 100%;
+        display: flex;
+        .container4 {
+            width: 59.41%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-row-gap: 40px;
+            justify-content: center;
+            align-content: center;
+        }
+        .icon4 {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            .hover {
+                display: none;
+                width: 124.52px;
+            }
+            .polygon {
+                position: relative;
+                margin-bottom: 20px;
+                width: 124.52px;
+            }
+            .stat {
+                position: absolute;
+                top: 35%;
+            }
+        }
+        .icon4:hover {
+            .hover {
+                display: block;
+                position: relative;
+                margin-bottom: 20px;
+            }
+            .polygon {
+                position: absolute;
+                top: 0px;
+            }
+        }
+        .title4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            .title4-1-2 {
+                color: $white;
+                font-family: Raleway;
+                font-weight: 600;
+                line-height: 32.36px;
+                font-size: 28.99px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
