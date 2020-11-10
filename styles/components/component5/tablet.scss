@@ -1,0 +1,475 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .component5 {
+        .title5 {
+            margin-bottom: 60px;
+            margin-top: 78px;
+            .title5-1-2 {
+                color: $gray;
+                font-family: Raleway;
+                font-weight: 600;
+                line-height: 32.36px;
+                font-size: 28.99px;
+                padding-bottom: 10px;
+            }
+        }
+        .grid-container {
+            width: 93.4895%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            padding-left: 23px;
+            grid-gap: 20px;
+            grid-template-areas: "one  two three " "f t p ";
+            .one {
+                height: 229px;
+                grid-area: one;
+                .div1 {
+                    height: 171.01px;
+                    display: none;
+                    .circle5 {
+                        background-color: $cyan;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-right: 1%;
+                        .cr5 {
+                            position: absolute;
+                            top: 13px;
+                            left: 20%;
+                        }
+                    }
+                    .circle5-1 {
+                        box-sizing: border-box;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-left: 1%;
+                        background-color: transparent;
+                        border: 2px solid $cyan;
+                        .cr5-1 {
+                            position: absolute;
+                            left: 25%;
+                            top: 5px;
+                        }
+                    }
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: none;
+                }
+            }
+            .one:hover {
+                .div1 {
+                    height: 171.01px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $blacko;
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $black;
+                    .photo {
+                        font-weight: 600;
+                        font-family: raleway;
+                        font-size: 11.99px;
+                        line-height: 26.68px;
+                        color: $white;
+                        text-align: center;
+                    }
+                    .last5 {
+                        font-size: 9.99px;
+                        font-family: raleway;
+                        font-style: italic;
+                        color: $cyan;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+            }
+            .two {
+                height: 229px;
+                grid-area: two;
+                .div1 {
+                    height: 171.01px;
+                    display: none;
+                    .circle5 {
+                        background-color: $cyan;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-right: 1%;
+                        .cr5 {
+                            position: absolute;
+                            top: 13px;
+                            left: 20%;
+                        }
+                    }
+                    .circle5-1 {
+                        box-sizing: border-box;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-left: 1%;
+                        background-color: transparent;
+                        border: 2px solid $cyan;
+                        .cr5-1 {
+                            position: absolute;
+                            left: 25%;
+                            top: 5px;
+                        }
+                    }
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: none;
+                }
+            }
+            .two:hover {
+                .div1 {
+                    height: 171.01px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $blacko;
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $black;
+                    .photo {
+                        font-weight: 600;
+                        font-family: raleway;
+                        font-size: 11.99px;
+                        line-height: 26.68px;
+                        color: $white;
+                        text-align: center;
+                    }
+                    .last5 {
+                        font-size: 9.99px;
+                        font-family: raleway;
+                        font-style: italic;
+                        color: $cyan;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+            }
+            .three {
+                height: 229px;
+                grid-area: three;
+                .div1 {
+                    height: 171.01px;
+                    display: none;
+                    .circle5 {
+                        background-color: $cyan;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-right: 1%;
+                        .cr5 {
+                            position: absolute;
+                            top: 13px;
+                            left: 20%;
+                        }
+                    }
+                    .circle5-1 {
+                        box-sizing: border-box;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-left: 1%;
+                        background-color: transparent;
+                        border: 2px solid $cyan;
+                        .cr5-1 {
+                            position: absolute;
+                            left: 25%;
+                            top: 5px;
+                        }
+                    }
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: none;
+                }
+            }
+            .three:hover {
+                .div1 {
+                    height: 171.01px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $blacko;
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $black;
+                    .photo {
+                        font-weight: 600;
+                        font-family: raleway;
+                        font-size: 11.99px;
+                        line-height: 26.68px;
+                        color: $white;
+                        text-align: center;
+                    }
+                    .last5 {
+                        font-size: 9.99px;
+                        font-family: raleway;
+                        font-style: italic;
+                        color: $cyan;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+            }
+            .f {
+                height: 229px;
+                grid-area: f;
+                .div1 {
+                    height: 171.01px;
+                    display: none;
+                    .circle5 {
+                        background-color: $cyan;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-right: 1%;
+                        .cr5 {
+                            position: absolute;
+                            top: 13px;
+                            left: 20%;
+                        }
+                    }
+                    .circle5-1 {
+                        box-sizing: border-box;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-left: 1%;
+                        background-color: transparent;
+                        border: 2px solid $cyan;
+                        .cr5-1 {
+                            position: absolute;
+                            left: 25%;
+                            top: 5px;
+                        }
+                    }
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: none;
+                }
+            }
+            .f:hover {
+                .div1 {
+                    height: 171.01px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $blacko;
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $black;
+                    .photo {
+                        font-weight: 600;
+                        font-family: raleway;
+                        font-size: 11.99px;
+                        line-height: 26.68px;
+                        color: $white;
+                        text-align: center;
+                    }
+                    .last5 {
+                        font-size: 9.99px;
+                        font-family: raleway;
+                        font-style: italic;
+                        color: $cyan;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+            }
+            .t {
+                height: 229px;
+                grid-area: t;
+                .div1 {
+                    height: 171.01px;
+                    display: none;
+                    .circle5 {
+                        background-color: $cyan;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-right: 1%;
+                        .cr5 {
+                            position: absolute;
+                            top: 13px;
+                            left: 20%;
+                        }
+                    }
+                    .circle5-1 {
+                        box-sizing: border-box;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-left: 1%;
+                        background-color: transparent;
+                        border: 2px solid $cyan;
+                        .cr5-1 {
+                            position: absolute;
+                            left: 25%;
+                            top: 5px;
+                        }
+                    }
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: none;
+                }
+            }
+            .t:hover {
+                .div1 {
+                    height: 171.01px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $blacko;
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $black;
+                    .photo {
+                        font-weight: 600;
+                        font-family: raleway;
+                        font-size: 11.99px;
+                        line-height: 26.68px;
+                        color: $white;
+                        text-align: center;
+                    }
+                    .last5 {
+                        font-size: 9.99px;
+                        font-family: raleway;
+                        font-style: italic;
+                        color: $cyan;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+            }
+            .p {
+                height: 229px;
+                grid-area: p;
+                .div1 {
+                    height: 171.01px;
+                    display: none;
+                    .circle5 {
+                        background-color: $cyan;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-right: 1%;
+                        .cr5 {
+                            position: absolute;
+                            top: 13px;
+                            left: 20%;
+                        }
+                    }
+                    .circle5-1 {
+                        box-sizing: border-box;
+                        width: 36.62px;
+                        height: 37px;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-left: 1%;
+                        background-color: transparent;
+                        border: 2px solid $cyan;
+                        .cr5-1 {
+                            position: absolute;
+                            left: 25%;
+                            top: 5px;
+                        }
+                    }
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: none;
+                }
+            }
+            .p:hover {
+                .div1 {
+                    height: 171.01px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $blacko;
+                }
+                .div2 {
+                    height: 57.99px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: $black;
+                    .photo {
+                        font-weight: 600;
+                        font-family: raleway;
+                        font-size: 11.99px;
+                        line-height: 26.68px;
+                        color: $white;
+                        text-align: center;
+                    }
+                    .last5 {
+                        font-size: 9.99px;
+                        font-family: raleway;
+                        font-style: italic;
+                        color: $cyan;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
