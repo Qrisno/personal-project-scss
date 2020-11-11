@@ -228,12 +228,20 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        .div1 {
+            display: none;
+        }
+        .div2 {
+            display: none;
+        }
     }
     .t:hover {
         .div1 {
+            display: block;
             background-color: $blacko;
         }
         .div2 {
+            display: block;
             background-color: $black;
         }
     }
@@ -243,7 +251,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-color: $black;
         height: 379px;
         grid-area: p;
     }
