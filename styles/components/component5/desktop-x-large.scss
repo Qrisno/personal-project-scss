@@ -44,6 +44,7 @@
     }
     .one {
         background-image: url('images/component5/p1.jpg');
+        background-position: center;
         height: 379px;
         grid-area: one;
         .div1 {
@@ -117,6 +118,7 @@
     .two {
         background-image: url('images/component5/p20.jpg');
         background-size: cover;
+        background-position: center;
         height: 379px;
         grid-area: two;
         .div1 {
@@ -188,6 +190,7 @@
         @extend .one;
         background-image: url('images/component5/p9.jpg');
         background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
         height: 379px;
         grid-area: three;
@@ -207,6 +210,7 @@
         background-image: url('images/component5/p12.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .f:hover {
         .div1 {
@@ -223,6 +227,7 @@
         background-image: url('images/component5/p17.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .t:hover {
         .div1 {
@@ -237,6 +242,7 @@
         background-image: url('images/component5/p18.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         background-color: $black;
         height: 379px;
         grid-area: p;
@@ -254,6 +260,7 @@
         background-image: url('images/component5/p22.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         height: 379px;
         grid-area: s;
     }
